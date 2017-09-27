@@ -23,7 +23,7 @@ function quadEquation(a, b, c) {
         const x = (-b + dSqrt)/(2*a);
         return 'Discriminant is ' + d + '<br>' + 'Result is: x = ' + x +';';
     }else {
-    return 'Discriminant is ' + d + '<br>' + 'There are no real roots as the discriminant is less than 0';   
+    return 'Discriminant is ' + d + '<br>' + 'There are no real roots as discriminant < 0';   
     }
 }   
 
